@@ -10,7 +10,56 @@
 
 - [目录](#目录)
 - [Java语言基础](#java语言基础)
+- [链接分享](#链接分享)
+  - [工具](#工具)
+  - [测试](#测试)
+  - [其他](#其他)
 
 # Java语言基础
 
 
+# 链接分享
+
+## 工具
+
+- [Guava](https://github.com/google/guava)：谷歌开发的 Java 工具库
+- [Apache Commons](https://github.com/apache/commons-lang)：各类工具库，比如 commons-lang、commons-io、commons-collections 等
+- [Hutool](https://github.com/looly/hutool)：Java 工具集库
+- [Lombok](https://github.com/projectlombok/lombok)：Java 增强库
+- [Apache HttpComponents Client](https://github.com/apache/httpcomponents-client)：HTTP 客户端库
+- [OkHttp](https://github.com/square/okhttp)：适用于 JVM、Android 等平台的 Http 客户端
+- [Gson](https://github.com/google/gson)：谷歌的 JSON 处理库
+- [Jcommander](https://github.com/cbeust/jcommander)：Java 命令行参数解析框架
+- [Apache PDFBox](https://github.com/apache/pdfbox)：PDF 操作库
+- [EasyExcel](https://github.com/alibaba/easyexcel)：阿里的 Excel 处理库
+- [Apache POI](https://github.com/apache/poi)：表格文件处理库
+
+## 测试
+
+- [JUnit](https://github.com/junit-team/junit4)：Java 测试框架
+- [Mockito](https://github.com/mockito/mockito)：Java 单元测试 Mock 框架
+- [Selenium](https://github.com/SeleniumHQ/selenium)：浏览器自动化框架
+- [htmlunit](https://github.com/HtmlUnit/htmlunit)：Java 模拟浏览器
+- [TestNG](https://github.com/cbeust/testng)：Java 测试框架
+- [Jacoco](https://github.com/jacoco/jacoco)：Java 代码覆盖度库
+
+## 其他
+
+- [cglib](https://github.com/cglib/cglib)：字节码生成库
+- [Arthas](https://github.com/alibaba/arthas)：Java 诊断工具
+- [config](https://github.com/lightbend/config)：针对 JVM 的配置库
+- [Quasar](https://github.com/puniverse/quasar)：Java 纤程库
+- [drools](https://github.com/kiegroup/drools)：Java 规则引擎
+- [Caffeine](https://github.com/ben-manes/caffeine)：Java 高性能缓存库
+- [Disruptor](https://github.com/LMAX-Exchange/disruptor)：高性能线程间消息传递库
+- [Knife4j](https://doc.xiaominfo.com/)：Swagger 文档增强
+- [Thumbnailator](https://github.com/coobird/thumbnailator)：Java 缩略图生成库
+- [Logback](https://github.com/qos-ch/logback)：Java 日志库
+- [Apache Camel](https://github.com/apache/camel)：消息传输集成框架
+- [Quartz](https://github.com/quartz-scheduler/quartz)：定时任务调度库
+- [Apache Mahout](https://github.com/apache/mahout)：机器学习库
+- [Apache OpenNLP](https://github.com/apache/opennlp)：NLP 工具库
+- [RxJava](https://github.com/ReactiveX/RxJava)：JVM 反应式编程框架
+- [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html)：性能分析库
+- [jsoup](https://jsoup.org/)：HTML 文档解析库
+- [webmagic](https://github.com/code4craft/webmagic/)：Java 爬虫框架
