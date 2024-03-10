@@ -5,7 +5,7 @@
 </div>
 
 
-# 概述
+## 概述
 
 在Java中，内部类主要分为四种类型：
 
@@ -17,5 +17,79 @@
 
 4. **匿名内部类**：匿名内部类是一种没有构造器的类。它通常用来简化代码，如在创建线程或者按钮动作监听时。
 
-# 成员内部类
+## 举例
+
+以下是Java中四种内部类的示例代码：
+
+1. **成员内部类**：
+
+```java
+public class OuterClass {
+    private String outerField = "Outer field";
+
+    class InnerClass {
+        void printOuterField() {
+            System.out.println(outerField);
+        }
+    }
+}
+// 使用方式
+OuterClass outer = new OuterClass();
+OuterClass.InnerClass inner = outer.new InnerClass();
+inner.printOuterField();
+```
+
+2. **静态内部类**：
+
+```java
+public class OuterClass {
+    private static String staticOuterField = "Static outer field";
+
+    static class StaticInnerClass {
+        void printOuterField() {
+            System.out.println(staticOuterField);
+        }
+    }
+}
+// 使用方式
+OuterClass.StaticInnerClass staticInner = new OuterClass.StaticInnerClass();
+staticInner.printOuterField();
+```
+
+3. **局部内部类**：
+
+```java
+public class OuterClass {
+    void outerMethod() {
+        class LocalInnerClass {
+            void printSomething() {
+                System.out.println("Hello from Local Inner Class");
+            }
+        }
+        // 使用方式
+        LocalInnerClass localInner = new LocalInnerClass();
+        localInner.printSomething();
+    }
+}
+// 使用方式
+OuterClass outer = new OuterClass();
+outer.outerMethod();
+```
+
+4. **匿名内部类**：
+
+```java
+public class OuterClass {
+    void outerMethod() {
+        new Thread() {
+            public void run() {
+                System.out.println("Hello from Anonymous Inner Class");
+            }
+        }.start();
+    }
+}
+// 使用方式
+OuterClass outer = new OuterClass();
+outer.outerMethod();
+```
 
