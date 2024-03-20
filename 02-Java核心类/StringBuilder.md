@@ -89,3 +89,54 @@ public class Main {
 
 ## 五、常用方法
 
+1. `append()`: 添加数据到当前`StringBuilder`对象的末尾。这个方法有多个重载版本，可以接受不同类型的参数，如`String`，`int`，`char`等。
+
+    ```java
+    StringBuilder sb = new StringBuilder();
+    sb.append("Hello");
+    sb.append(123);
+    sb.append('A');
+    ```
+
+2. `insert()`: 在指定位置插入数据。这个方法也有多个重载版本，可以接受不同类型的参数。
+
+    ```java
+    StringBuilder sb = new StringBuilder("Hello");
+    sb.insert(5, " World");  // 插入字符串
+    ```
+
+3. `delete()`: 删除从`start`位置开始到`end`位置的字符。
+
+    ```java
+    StringBuilder sb = new StringBuilder("Hello World");
+    sb.delete(5, 6);  // 删除空格
+    ```
+
+4. `reverse()`: 将当前`StringBuilder`对象中的字符反转。
+
+    ```java
+    StringBuilder sb = new StringBuilder("Hello");
+    sb.reverse();  // olleH
+    ```
+
+5. `toString()`: 返回当前`StringBuilder`对象的字符串表示。
+
+    ```java
+    StringBuilder sb = new StringBuilder("Hello");
+    String s = sb.toString();
+    ```
+
+6. `length()`: 返回当前`StringBuilder`对象的长度。
+
+    ```java
+    StringBuilder sb = new StringBuilder("Hello");
+    int len = sb.length();  // 5
+    ```
+
+7. `setLength()`: 设置当前`StringBuilder`对象的长度。如果新的长度小于当前长度，那么多余的字符将被丢弃。如果新的长度大于当前长度，那么会添加空字符。
+
+    ```java
+    StringBuilder sb = new StringBuilder("Hello");
+    sb.setLength(3);  // Hel
+    sb.setLength(5);  // Hel\0\0
+    ```
