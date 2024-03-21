@@ -20,6 +20,8 @@
 ## Java核心类
 
 - [String](./02-Java核心类/String.md)
+- [StringBuilder](./02-Java核心类/StringBuilder.md)
+- [StringJoiner](./02-Java核心类/StringJoiner.md)
 
 ## JVM
 
